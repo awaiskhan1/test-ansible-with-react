@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Ansible Deployment with React App Worked Successfully!
+          Ansible 2 Deployment with React App Worked Successfully!
         </p>
         <a
           className="App-link"
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          TEST Link
         </a>
       </header>
     </div>
