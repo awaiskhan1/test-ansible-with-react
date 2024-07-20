@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import logo from './logo.png';
 import './App.css';
+import VaraText from './VaraText';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Ansible 2 Deployment with React App Worked Successfully!
+        <VaraText text='Automatic migration of your GCP Compute engine instance worked successfully!' />
+        <p style={{fontSize: '12px', marginTop: '35px'}}>
+          Automatic migration of your GCP Compute engine instance worked successfully!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          TEST Link
-        </a>
       </header>
     </div>
   );
